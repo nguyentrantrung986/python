@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0327)https://d3c33hcgiwev3.cloudfront.net/_4ac9731ee0b3062ecc66a2edd94c0855_function_passing.html?Expires=1517875200&Signature=JqtYe97rf6tVjAO3XVRTq050HSHgaL5UMXiuN0NpYGEAZFn9a1mJtoHCYBudlgp3b1d2~fc9jLcCMsaylzZNuVidY-w9jLAYXjHzHPysXo0UzW4bk4Hr9KdoDEKtHKISAKgqddeaHkzxc5wh7JuRmVYzOv3imsbysq6XD1qL8tQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">	
+		
+		<link href="./Passing Functions as Arguments_files/styles.css" rel="stylesheet" type="text/css">
+		<link href="./Passing Functions as Arguments_files/styles(1).css" rel="stylesheet" type="text/css">
+				
+		<title>Passing Functions as Arguments</title>					
+	</head>	
+	
+	<body>
+		<div class="page_header">
+			<!-- For local testing -->
+			<!--a href="http://web.cs.toronto.edu/"><img src="bluescreen.jpg" alt="University of Toronto - Computer Science - Image" ></a-->
+			
+			<!-- For web version -->
+			<a href="http://web.cs.toronto.edu/"><img src="./Passing Functions as Arguments_files/_effbbd4e792a0bbfa32f5b33444045d6_bluescreen.jpg" alt="University of Toronto - Computer Science - Image"></a>			
+			<hr>
+		</div>
+		
+		<h1>Passing Functions as Arguments</h1> 
+		<div class="indent">
+			<br>
+			Like everything else in Python, functions are objects.  Since they are objects, they can be supplied as arguments to other functions.<br>
+			<br>
+			We can test this concept by creating an example function that simply runs other functions:
+			<div class="indent">
+				<table class="bordered"><tbody><tr><td>
+<pre>def function_runner(f):
+    """ (function) -&gt; NoneType
+
+    Call f.
+    """
+
+    f()
+</pre>
+				</td></tr></tbody></table>
+			</div>	
+			<br>
+			We can test this concept by having it call one of two other functions:
+			<div class="indent">
+				<table class="bordered"><tbody><tr><td>
+<pre>def function_1():
+    print("function_1 was called.")
+
+def function_2():
+    print("function_2 was called.")
+</pre>
+				</td></tr></tbody></table>
+			</div>	
+		
+			<br>
+			If we call <code>function_runner</code> passing it the name of <code>function_1</code>, 
+			<div class="indent">
+				<table class="bordered"><tbody><tr><td>
+					<code>function_runner(function_1)</code>
+				</td></tr></tbody></table>
+			</div>	
+			<br>
+			we get the results:
+			<div class="indent">
+				<table class="bordered"><tbody><tr><td>
+					<code>function_1 was called.</code>
+				</td></tr></tbody></table>
+			</div>	
+			<br>
+			If we call it using <code>function_2</code>			
+			<div class="indent">
+				<table class="bordered"><tbody><tr><td>
+					<code>function_runner(function_2)</code>
+				</td></tr></tbody></table>
+			</div>	
+			<br>
+			we see the following:
+			<div class="indent">
+				<table class="bordered"><tbody><tr><td>
+					<code>function_2 was called.</code>
+				</td></tr></tbody></table>
+			</div>	
+		
+		</div>
+		<div class="page_footer">
+			<hr>
+			<center>
+				Jennifer Campbell • Paul Gries<br>
+				University of Toronto
+			</center>
+			<hr>
+		</div>
+		
+
+</body></html>

@@ -1,0 +1,51 @@
+Debugging in IDLE:
+You can set breakpoint before it is run.
+
+	Set the breakpoint by right clicking on the relevant line of your program
+	On your python shell, look for Debug - [Debug On] will be shown in your IDLE Python shell
+	Go back to your program and press F5(hotkey) to run the program, press "Go" in the debugger it will stop in the relevant break line(s)
+	Check source checkbox in the debugger
+	If you want to look at some global variables or line of codes, you can check the box in the debugger
+	
+cProfile:
+>>> import cProfile
+>>> L = list(range(10000000))
+>>> len(L)
+10000000
+>>> cProfile.run('binary_search(L, 10000000)')
+         5 function calls in 0.000 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 :1(binary_search)
+        1    0.000    0.000    0.000    0.000 :1()
+        2    0.000    0.000    0.000    0.000 {len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+		
+python default parameter values: what is the reason for binding the default argument at function definition, and not at function execution? 
+Default parameter values are always evaluated when, and only when, the “def” statement they belong to is executed. When Python executes a “def” statement, it takes some ready-made pieces (including the compiled code for the function body and the current namespace), and creates a new function object. When it does this, it also evaluates the default values. If default values are mutable objects, changes made to these objects will persist across function calls, because the function object keep the reference to these objects. To reset the values of these object, execute the def statement again.
+
+def foo(a=[]):
+    a.append(5)
+    return a
+
+>>> foo()
+[5]
+>>> foo()
+[5, 5]
+>>> foo()
+[5, 5, 5]
+
+The workaround is, as others have mentioned, to use a placeholder value instead of modifying the default value. None is a common value:
+
+def myfunc(value=None):
+    if value is None:
+        value = []
+    # modify value here
+	
+
+Python write multi-line strings in code using parentheses:
+	expected = ('.#\nPJ\n#.'
+				'\nJ at (1, 1) ate 1 sprouts.'
+				'\nP at (1, 0) ate 0 sprouts.')

@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="text/javascript">
+<!--
+var ipVirDir="/";
+var ipSysImageDir="/system/images";
+var ipSiteTemplateDir="/Sites/86/templates";
+var ipDynamicFQDN="http://web.cs.toronto.edu";
+var ipCurrentPageClass="ContentPage";
+var ipCurrentPageDefID="24950";
+var ipCurrentTemplateID="336";
+//-->
+</script>
+<script src="/scripts/ip-utilities.js?ver=11.1.225.0" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+ipjPageSiteID=86;
+ipjPageSiteGroupID=71;
+//-->
+</script>
+<script type="text/javascript">
+<!--
+//-->
+</script>
+<meta name="Generator" content="IronPoint v7"/>
+<meta name="UpdateDateTime" content="01/06/2017 1:59:57 PM"/>
+
+		<title>Department of Computer Science, University of Toronto</title>
+		
+	<meta name="google-site-verification"content="tnine9z-FfhzDIF-9xBuNZz0ShlRVfdpM0UVKKO7v3s" />
+		<link href="/Sites/86/templates/css/reset.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="/Sites/86/templates/css/default.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="/Sites/86/templates/css/SectionMenuStyle.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="/Sites/86/templates/css/PageTypes.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="/Sites/86/templates/css/HTMLEditor.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="/Sites/86/templates/css/print.css" media="print" rel="stylesheet" type="text/css" />
+		<!--[if IE]>
+			<link href="/Sites/86/templates/css/ie.css" media="screen" rel="stylesheet" type="text/css" />
+		<![endif]-->
+		        <!--[if lte IE 6]>
+			<link href="/Sites/86/templates/css/ie6.css" media="screen" rel="stylesheet" type="text/css" />
+		<![endif]-->
+		<script src="/Sites/86/templates/js/googlesearch.js" type="text/javascript" language="javascript"></script>
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		<script type="text/javascript">google.load("jquery", "1");</script>
+		<script type="text/javascript" src="/Sites/86/templates/js/cycle.js"></script>
+		<script type="text/javascript" src="/Sites/86/templates/js/superfish.js"></script>
+   <script type="text/javascript" src="/Sites/86/templates/js/cufon-yui.js"></script>
+   <script type="text/javascript" src="/Sites/86/templates/js/Franklin_Gothic_Demi_Cond_400.font.js"></script>
+	 <script type="text/javascript">
+			$(document).ready(function(){
+				$('.flash').cycle({
+					timeout:       8000,  // milliseconds between slide transitions (0 to disable auto advance) 
+					speed:         600,  // speed of the transition (any valid fx speed value) 
+					next:          'nextBtn',  // id of element to use as click trigger for next slide 
+					prev:          'prevBtn',  // id of element to use as click trigger for previous slide 
+					pause:         1     // true to enable "pause on hover" 
+				});
+				$('#mainnav ul').superfish({
+					delay:       1000,				// one second delay on mouseout
+					animation:   {height:'show'},	// fade-in and slide-down animation
+					speed:       'fast',			// faster animation speed
+					autoArrows:  false,				// disable generation of arrow mark-up
+					dropShadows: false				// disable drop shadows
+				});
+			});
+		</script>
+   <script type="text/javascript">
+      Cufon.replace('#tools a');
+      Cufon.replace('#sectionMenuElementID_0 a');
+      Cufon.replace('#sectionMenuElementID_0 a:hover');
+      Cufon.replace('h2');
+      Cufon.replace('h3');
+      Cufon.replace('h4');
+   </script>
+   <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7356562-9']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	</head>
+	<body id="home"><p class="navskip"><a href="#nav">Skip to main navigation</a> <a href="#right">Skip to Content</a></p>
+		<div id="header" class="clearfix">
+			<h1><a href="/home.htm">Computer Science</a></h1>
+      <h6><a href="/home.htm">University of Toronto</a></h6>
+			<div id="tools">
+				<ul>
+					<li class="portal"><a href="http://portal.utoronto.ca" target="_blank">U of T Portal</a></li>
+					<li class="support"><a href="http://www.studentlife.utoronto.ca/bewell" target="_blank">Student Support</a></li>
+					<li class="hdr_last"><a href="/dcs/contact.htm">Contact</a></li>
+				</ul>
+				<div id="search">
+					<form id="GoogleSearch" name="GoogleSearch" action="http://find.utoronto.ca/search"
+					method="get">					
+					<input name="q" id="q" onfocus="javascript: googlehasfocus=this;" onkeydown="javascript: if ((event.which && event.which == 13) || (event.keyCode && event.keyCode == 13)) {SubmitGoogleForm();};" size="22" maxlength="255" type="text" />
+					<input name='googlesearchbutton' type="button" id='googlesearchbutton' onclick="javascript: googlehasfocus=this; SubmitGoogleForm();" class="button-search" />
+					<input type="hidden" name="output" value="xml_no_dtd" />
+					<input type="hidden" name="ie" value="UTF-8" />
+					<input type="hidden" name="oe" value="UTF-8" />
+					<input type="hidden" name="client" value="default_frontend" />
+					<input type="hidden" name="proxystylesheet" value="default_frontend" />
+					<input type="hidden" name="as_sitesearch" value="http://web.cs.toronto.edu" />
+					</form>
+				</div>			
+			</div>
+		</div>
+		<div id="wrapper" class="clearfix">
+			<div id="nav" class="mainnav clearfix">
+
+<ul id="sectionMenuElementID_0" class="ipf-sectionmenu">
+	<li id="pageid24951" class="ipf-parent"><div><a href="/dcs.htm">About</a></div>
+	<ul>
+		<li id="pageid24952"><a href="/dcs/why.htm">Why Study CS at U of T</a></li>
+		<li id="pageid24956"><a href="/dcs/careers.htm">Career Options</a></li>
+		<li id="pageid24958"><a href="/dcs/history.htm">History of DCS</a></li>
+		<li id="pageid24959"><a href="/dcs/give.htm">Giving to DCS</a></li>
+		<li id="pageid24966"><a href="http://www.utm.utoronto.ca/~w3csc/" target="_blank">Computer Science at UofT Mississauga</a></li>
+		<li id="pageid24967"><a href="http://www.utsc.utoronto.ca/~csms/" target="_blank">Computer Science at UofT Scarborough</a></li>
+		<li id="pageid24970" class="ipf-parent"><a href="/dcs/contact.htm">Contact</a>		</li>
+		<li id="pageid32122"><a href="/dcs/contact/employmentopp.htm">Employment Opportunities for Faculty/Lecturers</a></li>
+		<li id="pageid32123"><a href="/dcs/contact/map.htm">How to Find Us</a></li>
+	</ul>
+	</li>
+	<li id="pageid24978" class="ipf-parent"><div><a href="/program.htm">Undergraduate</a></div>
+	<ul>
+		<li id="pageid25013" class="ipf-parent"><a href="/program/new.htm">Prospective Undergraduates</a>		</li>
+		<li id="pageid24980" class="ipf-parent"><a href="/program/ugrad.htm">Current Undergraduates</a>		</li>
+	</ul>
+	</li>
+	<li id="pageid36482" class="ipf-parent"><div><a href="/Graduate.htm">Graduate</a></div>
+	<ul>
+		<li id="pageid25050" class="ipf-parent"><a href="/Graduate/prospective_gradwhy.htm">Prospective Graduate students</a>		</li>
+		<li id="pageid25111" class="ipf-parent"><a href="/Graduate/currentgradstudents.htm">Current Graduate students</a>		</li>
+	</ul>
+	</li>
+	<li id="pageid25244" class="ipf-parent"><div><a href="/research.htm">Research</a></div>
+	<ul>
+		<li id="pageid25245" class="ipf-parent"><a href="/research/areas.htm">Research Areas</a>		</li>
+		<li id="pageid25257"><a href="/research/industry.htm">Partner with us</a></li>
+	</ul>
+	</li>
+	<li id="pageid25318" class="ipf-parent"><div><a href="/people.htm">People</a></div>
+	<ul>
+		<li id="pageid25319"><a href="/people/faculty.htm">Faculty</a></li>
+		<li id="pageid25320"><a href="/people/staff.htm">Staff</a></li>
+		<li id="pageid25322"><a href="/people/memoriam.htm">In Memoriam</a></li>
+		<li id="pageid25355"><a href="/people/alumni.htm">Alumni and Friends</a></li>
+		<li id="pageid37971"><a href="/people/Honours__Awards.htm">Honours &amp; Awards</a></li>
+		<li id="pageid25358"><a href="/people/dcswomen.htm">Women in Computer Science</a></li>
+		<li id="pageid25361"><a href="/people/csgsbs.htm">Graduate Student Society</a></li>
+		<li id="pageid25362"><a href="http://cssu.cdf.toronto.edu/" target="_blank">Undergraduate Student Union</a></li>
+		<li id="pageid31702"><a href="http://www.cs.toronto.edu/~uaig/" target="_blank">Undergraduate Artificial Intelligence Group</a></li>
+		<li id="pageid36472"><a href="http://www.cs.toronto.edu/~utg/">Undergraduate Theory Group</a></li>
+	</ul>
+	</li>
+	<li id="pageid25363" class="ipf-parent"><div><a href="/news.htm">News &amp; Events</a></div>
+	<ul>
+		<li id="pageid25364"><a href="/news/current.htm">News</a></li>
+		<li id="pageid25495"><a href="/news/events.htm">Events</a></li>
+		<li id="pageid36262"><a href="/news/alumni.htm">Alumni</a></li>
+		<li id="pageid37970"><a href="https://donate.utoronto.ca/give/show/54">Donate</a></li>
+	</ul>
+	</li>
+</ul>
+<script type="text/javascript">
+//IDs to be active: <!-- 
+ipjInitUnorderedListMenu("sectionMenuElementID_0",0);
+//-->
+<!-- 
+ipjInitUnorderedListMenuItemsActive("sectionMenuElementID_0");
+//-->
+</script>
+</div>
+			<div id="bodyarea" class="clearfix">
+				<div id="banner" class="clearfix">
+					<div class="flash"><a href="http://web.cs.toronto.edu/news/current/The_Department_of_Computer_Science_welcomes_its_newest_Faculty_appointments.htm"><img alt="New U of T Computer Science Faculty" src="http://www.cs.toronto.edu/dcs/enews/img/2017_Faculty_Highlights_web.jpg" /></a>
+<a href="http://web.cs.toronto.edu/news/current/The_Department_of_Computer_Science_welcomes_its_newest_Faculty_appointments.htm"><img alt="U of T Computer Science" src="http://www.cs.toronto.edu/dcs/enews/img/Faculty1_web.jpg" /></a>
+<a href="http://web.cs.toronto.edu/news/current/The_Department_of_Computer_Science_welcomes_its_newest_Faculty_appointments.htm"><img alt="Jimmy Ba mini profile" src="/Assets/Computer+Science+Digital+Assets/Department+of+Computer+Science/DCS+Digital+Assets/enews/Jimmy+Ba.jpg" /></a>
+<a href="http://web.cs.toronto.edu/news/current/The_Department_of_Computer_Science_welcomes_its_newest_Faculty_appointments.htm"><img alt="U of T Computer Science" src="http://www.cs.toronto.edu/dcs/enews/img/Faculty2_web.jpg" /></a>
+<a href="http://web.cs.toronto.edu/news/current/The_Department_of_Computer_Science_welcomes_its_newest_Faculty_appointments.htm"><img alt="U of T Computer Science" src="http://www.cs.toronto.edu/dcs/enews/img/Faculty3_web.jpg" /></a>
+<a href="http://web.cs.toronto.edu/news/current/The_Department_of_Computer_Science_welcomes_its_newest_Faculty_appointments.htm"><img alt="U of T Computer Science" src="http://www.cs.toronto.edu/dcs/enews/img/Faculty4_web.jpg" /></a>
+<a href="http://web.cs.toronto.edu/news/current/The_Department_of_Computer_Science_welcomes_its_newest_Faculty_appointments.htm"><img alt="U of T Computer Science" src="http://www.cs.toronto.edu/dcs/enews/img/Faculty5_web.jpg" /></a>
+<a href="http://web.cs.toronto.edu/news/current/The_Department_of_Computer_Science_welcomes_its_newest_Faculty_appointments.htm"><img alt="U of T Computer Science" src="http://www.cs.toronto.edu/dcs/enews/img/Faculty9_web.jpg" /></a>
+<a href="http://web.cs.toronto.edu/news/current/The_Department_of_Computer_Science_welcomes_its_newest_Faculty_appointments.htm"><img alt="U of T Computer Science" src="http://www.cs.toronto.edu/dcs/enews/img/Faculty6_web.jpg" /></a>
+<a href="http://web.cs.toronto.edu/news/current/The_Department_of_Computer_Science_welcomes_its_newest_Faculty_appointments.htm"><img alt="U of T Computer Science" src="http://www.cs.toronto.edu/dcs/enews/img/Faculty7_web.jpg" /></a>
+<a href="http://web.cs.toronto.edu/news/current/The_Department_of_Computer_Science_welcomes_its_newest_Faculty_appointments.htm"><img alt="U of T Computer Science" src="http://www.cs.toronto.edu/dcs/enews/img/Faculty8_web.jpg" /></a></div>
+					<div class="right">
+						<div><table width="285" cellspacing="10" cellpadding="0" border="0">
+    <tbody>
+        <tr>
+            <td>
+            <p> </p>
+            <a href="http://web.cs.toronto.edu/dcs/contact/employmentopp.htm" title="http://web.cs.toronto.edu/dcs/contact/employmentopp.htm"><img src="/Assets/Computer+Science+Digital+Assets/recruiting2016.jpg" alt="Hiring for multiple faculty positions" /></a> </td>
+        </tr>
+        <tr>
+            <td><a href="http://web.cs.toronto.edu/Graduate/prospective_gradwhy.htm"><img src="http://www.cs.toronto.edu/dcs/enews/img/button2.jpg" alt="Click here fore more information about our graduate program" width="285" height="100" /></a></td>
+        </tr>
+        <tr>
+            <td><a href="http://web.cs.toronto.edu/program/new.htm"><img src="http://www.cs.toronto.edu/dcs/enews/img/button3.jpg" alt="Click here fore more information about our undergraduate program" width="285" height="100" /></a></td>
+        </tr>
+    </tbody>
+</table></div>
+					</div>
+				</div>
+				<div id="left">
+					<h2 class="pageTitle profile">Profile</h2>
+					<div class="content"><!-- CONTENT CONTROL START --><h3><a href="https://www.youtube.com/watch?v=oXkuztqCu-s">Watch how our students take <br />video games to the next level</a></h3><br /><table cellspacing="5" cellpadding="5" width="200" border="0">    <tbody>        <tr>            <td><a href="https://www.youtube.com/watch?v=oXkuztqCu-s"><img alt="" src="http://www.cs.toronto.edu/dcs/enews/img/LevelUpShowcase_200x.jpg" width="200" height="125" /></a></td>        </tr>    </tbody></table><br /><table cellspacing="5" width="200" border="0">    <tbody>        <tr>            <td style="width: 49px;"><a href="https://www.facebook.com/UofTCompSci/" title="UofTCompSci"><img alt="Like us on Facebook" src="http://web.cs.toronto.edu/Assets/Computer+Science+Digital+Assets/Facebookicon2.jpg" /></a></td>            <td style="width: 49px;"><a href="https://twitter.com/UofTCompSci" title="https://twitter.com/UofTCompSci"><img alt="Twitter link" src="http://web.cs.toronto.edu/Assets/Computer+Science+Digital+Assets/Twitter+link.jpg" /></a></td>            <td style="width: 49px;"><a href="https://www.linkedin.com/groups/University-Toronto-Department-Computer-Science-4278175" title="https://www.linkedin.com/groups/University-Toronto-Department-Computer-Science-4278175"><img alt="LinkedIn group" src="http://web.cs.toronto.edu/Assets/Computer+Science+Digital+Assets/LinkedIn+group.jpg" /></a></td>            <td style="width: 57px;"> </td>        </tr>        <tr>            <td><a href="http://compsciutorontoconnect.ca/" title="http://compsciutorontoconnect.ca/" target="_blank"><img alt="Graduway icon" src="/Assets/Computer+Science+Digital+Assets/CompSciConnect.jpg" /></a></td>            <td><a title="https://www.flickr.com/photos/132676473@N04/albums" href="https://www.flickr.com/photos/132676473@N04/albums"><img alt="Photos sets for the Department of Computer Science" src="http://web.cs.toronto.edu/Assets/Computer+Science+Digital+Assets/Flickr.jpg" /></a></td>            <td><a title="https://www.flickr.com/photos/132676473@N04/albums" href="https://www.youtube.com/user/DCSUofT"><img alt="Photos sets for the Department of Computer Science" src="http://web.cs.toronto.edu/Assets/Computer+Science+Digital+Assets/YouTube+page.jpg" /></a><a href="https://www.youtube.com/user/DCSUofT" title="https://www.youtube.com/user/DCSUofT"></a><br />            </td>            <td><br />            </td>        </tr>    </tbody></table><!-- CONTENT CONTROL END --></div>
+				</div>
+				<div id="right"><h2 class="pageTitle">News & Events</h2>
+					<div class="content">
+                    	<dl>
+							<h4>News</h4><dd><strong><a href="/news/current/U_of_T_s_Geoffrey_Hinton__Toronto_Life_looks_at_the_man_behind_the_machines.htm">U of T's Geoffrey Hinton: Toronto Life looks at the man behind the machines</a></strong>  
+The profile, in this week’s issue, offers an intimate look into the life of the "godfather" of deep learning, a branch of AI that seeks to mimic how the human brain works.
+</dd><dd><strong><a href="/news/current/U_of_T_computer_science_professor_named_NSERC_Industrial_Research_Chair_in_Machine_Learning.htm">U of T computer science professor named NSERC Industrial Research Chair in Machine Learning</a></strong>  
+Professor Richard Zemel has been named NSERC Industrial Research Chair (IRC) in Machine Learning, effective August 1, 2018 for a renewable five-year term.
+</dd><dd><strong><a href="/news/current/From_anthropology_to_AI__Meet_the_U_of_T_expert_guiding_the_software_companies_of_tomorrow.htm">From anthropology to AI: Meet the U of T expert guiding the software companies of tomorrow</a></strong>  
+Helen Kontozopoulos' rare mix of technological know-how and real-world experience is woven into the very fabric of DCSIL, which she co-founded in 2015 with Adjunct Professor Mario Grech and Associate Professor, Teaching Stream Paul Gries.
+</dd>
+<dd class="more"><p><a title="@DCS newsletter" href="/www.cs.toronto.edu/dcs/2010newsletter"></a></p>
+<p><a title="Current News" href="/news/current.htm">READ MORE NEWS</a>&nbsp; </p></dd></dl>
+						<dl>
+                        	<h4>Events</h4><dd><strong><a href="/news/events/ECE_Distinguished_Lectures_Series__Feb_1.htm">ECE Distinguished Lectures Series: Feb 1</a></strong>  
+Professor Manfred Morari, University of Pennsylvania, "The Past, Present and Future of Control"
+</dd><dd><strong><a href="/news/events/UTism_2018___The_Cognitive_Science_of_Disruption__Feb_3___4.htm">UTism 2018 – The Cognitive Science of Disruption: Feb 3 & 4</a></strong>  
+What to Expect When You're Unexpecting: The Cognitive Science of Disruption
+</dd><dd><strong><a href="/news/events/Software_For_Data_Science_Workshop__Feb_5___6.htm">Software For Data Science Workshop: Feb 5 & 6</a></strong>  
+High Performance Computing in the Cloud – Numerical Simulation and Data Analysis
+</dd><dd><strong><a href="/news/events/Blockchain_Research_Seminar_Series__Feb_5.htm">Blockchain Research Seminar Series: Feb 5</a></strong>  
+Ford Professor of Engineering Silvio Micali, MIT, "ALGORAND - A Truly Distributed Ledger"
+</dd>
+<dd class="more"><a href="/news/events.htm" title="DCS Events Calendar">FIND MORE EVENTS</a></dd></dl>
+					</div>
+				</div>
+			</div>
+			<div id="footer" class="clearfix">
+				<!--<h2><a href="/home.htm">Computer Science</a></h2>-->
+				<p>All rights reserved copyright Computer Science, University of Toronto | <a href="/sitemap.htm">Site Map</a></p>
+			</div>
+		</div>
+    <script type="text/javascript"> Cufon.now(); </script><script type="text/javascript">ipjMoveViewstateFromFooter()</script></body>
+</html>

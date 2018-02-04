@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0325)https://d3c33hcgiwev3.cloudfront.net/_ee7affe8feea106f4bb78e537b159eb0_choosing_tests.html?Expires=1517702400&Signature=BY7tj8J9ncKOfq7zoYahBr8cZYqb-O8uduC9wiKEf3olybFQTPtnhqihN2pgzUJvOTxZ2X8jnT0TvlVe7fuanFkNb04LHNRilO-~1wGX8z-di9iSqtFft1SBGCMnxN9OZm4a6iFiQxm5x~I6mtA0LDX5k6DD2wIxrcJMexAMzKE_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">	
+		
+		<link href="./Choosing Test Cases_files/styles.css" rel="stylesheet" type="text/css">
+		<link href="./Choosing Test Cases_files/styles(1).css" rel="stylesheet" type="text/css">
+				
+		<title>Choosing Test Cases</title>					
+	</head>	
+	
+	<body>
+		<div class="page_header">
+			<!-- For local testing -->
+			<!--a href="http://web.cs.toronto.edu/"><img src="bluescreen.jpg" alt="University of Toronto - Computer Science - Image"></a-->
+			
+			<!-- For web version -->
+			<a href="http://web.cs.toronto.edu/"><img src="./Choosing Test Cases_files/_effbbd4e792a0bbfa32f5b33444045d6_bluescreen.jpg" alt="University of Toronto - Computer Science - Image"></a>
+			<hr>
+		</div>
+		
+		<h1>Choosing Test Cases</h1> 
+		<div class="indent">
+			
+						
+			<h2>Choosing tests for <code>count_lowercase_vowels</code></h2>		
+			<div class="indent">
+						
+				<table class="bordered">
+					<tbody><tr><td>
+<pre>def count_lowercase_vowels(s):
+    """ (str) -&gt; int
+	
+    Return the number of vowels (a, e, i, o, and u) in s.
+	
+    &gt;&gt;&gt; count_lowercase_vowels('Happy Anniversary!')
+    4
+    &gt;&gt;&gt; count_lowercase_vowels('xyz')
+    0
+    """
+	
+    num_vowels = 0
+	
+    for char in s:
+        if char in 'aeiou':		
+            num_vowels = num_vowels + 1
+	return num_vowels
+</pre>
+					</td></tr>
+				</tbody></table>				
+<br>						
+<p>To test <code>count_lowercase_vowels</code>, we need to:</p>
+	<ul>
+		<li>pick values for the string argument, and </li>
+		<li>call the function to ensure it returns what we expect for each case.</li>
+	</ul>
+	It is not realistic to test using every single possible string argument. Instead, we create relevant categories, and choose one representative string argument from each category.
+	To choose the string argument, consider:
+	<ul>
+		<li>the length of the string, and</li>
+		<li>the characters that make up the string.</li>
+	</ul>
+	
+	<p>
+		There are many possible string lengths.
+		For this example, we'll consider strings that have these lengths:
+	</p>
+		<ul>
+			<li>0 (empty)
+			</li><li>1 (single character) 
+			</li><li>6 (longer)
+		</li></ul>
+	</div>
+	
+	<p>
+		Which characters should we use? For this example, we'll choose characters based on whether they are vowels or non-vowels.  The actual character doesn't matter.<br>
+		If we want a non-vowel, we could use <code>'b'</code>, <code>'n'</code>, <code>'?'</code>, or any other character that is not a vowel.
+	</p>
+	</div>
+	<div class="indent">
+		We will make a table of the test cases with the following 3 columns:
+		<ul>
+			<li>value of the argument to the function
+			</li><li>expected return value of the function 
+			</li><li>a description of the test case
+		</li></ul>
+		<div class="indent">
+			<table><tbody><tr><td>
+				<div class="centered"><code>
+					<table class="bordered">
+						<tbody><tr class="header">
+							<td><b>s</b></td>
+							<td><b>Expected Value</b></td>
+							<td><b>Description</b></td>
+						</tr>
+						<tr>
+							<td>''</td>
+							<td>0</td>
+							<td>empty string</td>
+						</tr>
+						<tr>
+							<td>'a'</td>
+							<td>1</td>
+							<td>single char, vowel</td>
+						</tr>
+						<tr>
+							<td>'b'</td>
+							<td>0</td>
+							<td>single char, non-vowel</td>
+						</tr>
+						<tr>
+							<td>'pfffft'</td>
+							<td>0</td>
+							<td>several chars, no vowels</td>
+						</tr>
+						<tr>
+							<td>'bandit'</td>
+							<td>2</td>
+							<td>several chars, some vowels</td>
+						</tr>
+						<tr>
+							<td>'aeioua'</td>
+							<td>6</td>
+							<td>several chars, all vowels*</td>
+						</tr>
+					</tbody></table>
+				</code></div>
+			</td></tr></tbody></table>
+			<div class="indent">
+				* we included all 5 vowels to ensure each one is properly counted.
+			</div>
+		</div> <!-- Table Indent -->												
+	</div> <!-- H4: Table of Test Cases -->
+ <!-- H3: Testing -->
+ <!-- H2: First Example -->
+<h2>Choosing tests for <code>is_palindrome</code></h2>		
+
+<div class="indent">
+
+				<table class="bordered">
+					<tbody><tr><td>
+<pre>def is_palindrome(s):
+    """ (str) -&gt; bool
+
+    Return True if and only if s is a palindrome.
+
+    &gt;&gt;&gt; is_palindrome('noon')
+    True
+    &gt;&gt;&gt; is_palindrome('racecar')
+    True
+    &gt;&gt;&gt; is_palindrome('dented')
+    False
+    """
+</pre>
+					</td></tr>
+				</tbody></table>		
+				
+	<div class="indent">
+	<br>
+	<p>
+		Because the function returns a Boolean value, we need <i>at least</i> 2 test cases: one that returns <code>True</code> and one that returns <code>False</code>. In this case, we actually need quite a few more than 2 test cases.
+	</p>
+		<p>
+		As for the previous example, we need to choose different values for the string argument that represent different categories of strings.</p>
+
+		</div>
+		<h4>Dichotomy</h4>
+		<p>
+			When we developed the code for <code>is_palindrome()</code>, we found that whether a string was even or odd affected the code. Therefore, the tests should consider strings that have even and odd lengths. For this example, we'll consider strings that have these lengths:
+	</p>
+			<ul>
+				<li>0 and 1 (which are both considered palindromes)
+				</li><li>2 (smallest possible non-empty even length palindrome, smallest possible non-palindrome)
+				</li><li>3 (smallest possible multiple-character odd length palindrome)
+				</li><li>6 (longer, even length string)
+				</li><li>7 (longer, odd length string)
+			</li></ul>
+
+			<p>
+				The test cases are summarized in this table:
+			</p>
+			<div class="indent">
+				<table><tbody><tr><td>
+					<div class="centered"><code>
+						<table class="bordered">
+							<tbody><tr class="header">
+								<td><b>s</b></td>
+								<td><b>Expected Value</b></td>
+								<td><b>Description</b></td>
+							</tr>
+							<tr>
+								<td>''</td>
+								<td>True</td>
+								<td>empty string</td>
+							</tr>
+							<tr>
+								<td>'a'</td>
+								<td>True</td>
+								<td>single character</td>
+							</tr>
+							<tr>
+								<td>'aa'</td>
+								<td>True</td>
+								<td>2 chars, palindrome</td>
+							</tr>
+							<tr>
+								<td>'ab'</td>
+								<td>False</td>
+								<td>2 chars, not palindrome</td>
+							</tr>
+							<tr>
+								<td>'aba'</td>
+								<td>True</td>
+								<td>3 chars, palindrome</td>
+							</tr>
+							<tr>
+								<td>'abc'</td>
+								<td>False</td>
+								<td>3 chars, not palindrome</td>
+							</tr>
+							
+							<tr>
+								<td>'redder'</td>
+								<td>True</td>
+								<td>longer, even, palindrome</td>
+							</tr>
+							<tr>
+								<td>'renter'</td>
+								<td>False</td>
+								<td>longer, even, not palindrome</td>
+							</tr>
+							<tr>
+								<td>'racecar'</td>
+								<td>True</td>
+								<td>longer, odd, palindrome</td>
+							</tr>
+							<tr>
+								<td>'banana'</td>
+								<td>False</td>
+								<td>longer, odd, not palindrome</td>
+							</tr>
+						</tbody></table>
+					</code></div>
+				</td></tr></tbody></table>							
+			</div> <!-- Table Indent -->
+		</div> <!-- H4: Table of Test Cases -->
+	 <!-- H3: Testing -->
+ <!-- H2: Second Example -->
+<h2>General Tips</h2>					
+
+<p>
+	When choosing test cases, consider the following factors:
+</p>
+	<ul>
+		<li><b>Size</b><br>
+		For collections (<code>strings, lists, tuples, dictionaries</code>) test with:
+		<ul>
+			<li>empty collection
+			</li><li>a collection with 1 item
+			</li><li>smallest interesting case
+			</li><li>collection with several items		
+		</li></ul>
+		</li><li><b>Dichotomies</b><br>
+			Consider your situation:<br>
+		<br>
+		For example:
+		<ul>
+			<li>vowels/non-vowels
+			</li><li>even/odd
+			</li><li>positive/negative
+			</li><li>empty/full
+			</li><li>etc.
+		</li></ul>
+		</li><li><b>Boundaries</b><br>
+			If a function behaves differently for a value near a particular threshold (i.e. an <code>if</code> statement checking when a value is 3; 3 is a threshold), test at that threshold.
+		</li><li><b>Order</b><br>
+			If a function behaves differently when the values are in a different order, identify and test each of those orders.
+	</li></ul>
+
+<p>
+	There is often overlap between the categories, so one test case may fall into more than 1 category.<br>				
+</p>	
+		<div class="page_footer">
+			<hr>
+			<center>
+				Jennifer Campbell • Paul Gries<br>
+				University of Toronto
+			</center>
+			<hr>
+		</div>
+		
+
+</body></html>
