@@ -49,3 +49,14 @@ Python write multi-line strings in code using parentheses:
 	expected = ('.#\nPJ\n#.'
 				'\nJ at (1, 1) ate 1 sprouts.'
 				'\nP at (1, 0) ate 0 sprouts.')
+
+
+Use decimal for money and floating points:
+>>> from decimal import Decimal, getcontext
+>>> Decimal(1) - Decimal(0.8)
+Decimal('0.1999999999999999555910790150')
+>>> getcontext().prec = 3
+>>> Decimal(1) - Decimal(0.8)
+Decimal('0.200')
+>>> float(Decimal(1) - Decimal(0.8))
+0.2
